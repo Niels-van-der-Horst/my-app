@@ -1,13 +1,15 @@
 
 import './TodoList.css';
 
-function TodoList() {
+function TodoList(props) {
     return (
-        <div>
-            <h1>2023</h1>
-        </div>
+        <ul>
+            props
+        </ul>
 
     );
  }
 
- export default TodoList;
+ export default TodoList;  
+
+  
